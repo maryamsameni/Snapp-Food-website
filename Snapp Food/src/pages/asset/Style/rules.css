@@ -1,0 +1,28 @@
+.backRule{
+    width: 100%;
+    background-color: #e6e6e6;
+    margin-top: 70px;
+    padding: 4% 7%;
+}
+.backRule>.boxRule{
+    width: 100%;
+    background-color: white;
+    padding: 70px 60px;
+}
+.backRule>.boxRule>*{
+    width: 100%;
+}
+.backRule>.boxRule>ol>li{
+    font-size: 12px;
+    margin: 7px 0;
+    position: relative;
+}
+.backRule>.boxRule>ol>li::before{
+    position: absolute;
+    top: 0.25px;
+    right: -20px;
+    color: rgb(224, 0, 150);
+    font-size: 20px;
+    line-height: 1.3rem;
+    content: "• ";
+}

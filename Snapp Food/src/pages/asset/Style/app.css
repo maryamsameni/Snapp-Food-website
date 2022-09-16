@@ -1,0 +1,67 @@
+.appContent {
+    width: 100%;
+    background-color: #e6e6e6;
+    /* margin-top: 70px; */
+    padding: 5% 18%;
+    justify-content: center;
+}
+
+.appContent>.textApp {
+    width: 100%;
+}
+
+.appContent>.textApp>* {
+    width: 100%;
+}
+
+.appContent>.textApp>h2 {
+    text-align: center;
+    font-size: 23px;
+}
+
+.appContent>.textApp>h2>b {
+    color: rgb(224, 0, 150);
+}
+
+.appContent>.textApp>p {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.appContent>.textApp>ol>li {
+    width: 100%;
+    font-size: 13px;
+    position: relative;
+}
+.appContent>.textApp>ol>li::before{
+    position: absolute;
+    top: 4px;
+    right: -20px;
+    font-size: 20px;
+    line-height: 1.3rem;
+    content: "• ";
+}
+figure{
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+figure>img{
+    height: 100%;
+}
+.download{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.download>p{
+width: 100%;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.Icone{
+    width: 100%;
+    justify-content: space-evenly;
+}

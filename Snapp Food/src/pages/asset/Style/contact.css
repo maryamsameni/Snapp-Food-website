@@ -1,0 +1,101 @@
+.Boxcontact {
+    width: 100%;
+    background-color: #e6e6e6;
+    margin-top: 70px;
+    padding: 4% 14%;
+    justify-content: center;
+    align-content: center;
+}
+
+.Boxcontact>h1,
+.Boxcontact>p {
+    width: 100%;
+    text-align: center;
+}
+
+.Boxcontact>p {
+    margin-bottom: 15px;
+}
+
+.Boxcontact>h1 {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.Boxcontact>h1>b {
+    color: rgb(255, 0, 166);
+}
+
+.BoxcontactRight,
+.BoxcontactLeft {
+    width: 50%;
+    /* border: 1px solid red; */
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.BoxcontactRight>ul {
+    width: 30%;
+    flex-wrap: wrap;
+}
+
+.BoxcontactRight>ul:nth-of-type(2) {
+    width: 50%;
+}
+
+.BoxcontactRight>ul>li {
+    width: 100%;
+    font-size: 11px;
+    margin: 10px 0;
+}
+
+.BoxcontactRight>.iconeSocial {
+    width: 70%;
+}
+
+.BoxcontactRight>.iconeSocial>button {
+    background-color: white;
+    border-radius: 50%;
+    outline: 0;
+    border: 0;
+    padding: 5px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(58 61 66 / 6%) 0px 1px 0px, rgb(0 0 0 / 20%) 0px 4px 16px -8px;
+    border: 1px solid rgba(58, 61, 66, 0.06);
+    cursor: pointer;
+}
+
+.BoxcontactLeft>form {
+    width: 100%;
+}
+
+.BoxcontactLeft>form>* {
+    width: 100%;
+    outline: 0;
+    border: 0;
+    background-color: white;
+    padding: 10px;
+    margin: 7px 0;
+    font-family: font;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+.BoxcontactLeft>form>textarea {
+    height: 130px;
+}
+
+.BoxcontactLeft>form>*::placeholder {
+    color: rgba(128, 128, 128, 0.486);
+}
+
+.BoxcontactLeft>form>label {
+    background-color: transparent;
+    justify-content: left;
+    color: rgba(128, 128, 128, 0.808);
+    font-size: 13px;
+    display: flex;
+}

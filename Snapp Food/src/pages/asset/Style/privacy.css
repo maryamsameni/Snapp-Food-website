@@ -1,0 +1,20 @@
+.textPrivacy{
+    width: 100%;
+    background-color: #e6e6e6;
+    margin-top: 70px;
+    padding: 4% 7%;
+}
+.textPrivacy>h1{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.textPrivacy>h1>b{
+    color: rgb(224, 0, 150);
+}
+.textPrivacy>p{
+    margin: 15px 0;
+    font-size: 12px;
+    width: 100%;
+}

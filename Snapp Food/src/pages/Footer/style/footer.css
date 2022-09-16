@@ -1,0 +1,71 @@
+/* start Footer */
+footer {
+    width: 100%;
+    padding:40px 20px;
+    background-color: #f4f4f4bb;
+    justify-content: space-between;
+}
+
+footer>.snappFood {
+    width: 45%;
+    /* border: 1px solid red; */
+}
+
+footer>.snappFood>.sectionLogoSnapp {
+    width: 24%;
+    /* border: 1px solid red; */
+}
+footer>.snappFood>.sectionLogoSnapp>svg{
+    width: 80%;
+}
+footer>.snappFood>.snappText{
+    align-content: flex-start;
+    width: 76%;
+    /* border: 1px solid red; */
+}
+footer>.snappFood>.snappText>span{
+    color: rgb(255, 0, 166);
+    font-weight: 900;
+    font-size: 17px;
+    margin-top: 10px;
+    width: 100%;
+}
+footer>.snappFood>.snappText>p{
+    font-size: 12px;
+    margin: 10px 0 30px 0;
+}
+
+footer>.snappFood>.snappText>.iconeSocial>button{
+    background-color: white;
+    border-radius: 50%;
+    outline: 0;
+    border: 0;
+    padding: 8px;
+    margin: 0 10px;
+}
+
+footer>.logo {
+    width: 25%;
+    justify-content: left;
+}
+
+footer>.logo>img {
+    height: 80px;
+}
+
+footer>nav {
+    width: 30%;
+    /* border: 1px solid red; */
+}
+
+footer>nav>ul {
+    width: 50%;
+}
+
+footer>nav>ul>li {
+    width: 100%;
+    font-size: 10px;
+    margin: 8px 0;
+}
+
+/* End Footer  */

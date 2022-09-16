@@ -1,0 +1,72 @@
+.about {
+    width: 100%;
+    background-color: #e6e6e6;
+    margin-top: 70px;
+    padding: 4% 7%;
+}
+
+.about>.text {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.about>.text>strong {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about>.text>strong>b {
+    color: rgb(255, 0, 166);
+}
+
+.about>.text>p {
+    font-size: 13px;
+}
+
+/* **** */
+
+.aboutPic {
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.aboutPic>img {
+    width: 22%;
+}
+
+/* **** */
+.aboutTextEnd {
+    width: 100%;
+    padding: 5% 0;
+}
+
+.aboutTextEnd>.aboutTextEndRight,
+.aboutTextEnd>.aboutTextEndLeft {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutTextEnd>.aboutTextEndRight>p {
+    color: rgb(224, 0, 150);
+    font-size: 13px;
+    padding: 0 80px;
+}
+
+.aboutTextEnd>.aboutTextEndLeft>ul>li {
+    font-size: 11px;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style-type: circle;
+    margin: 5px 0;
+}
+
+.aboutTextEnd>.aboutTextEndLeft>ul>li::before {
+    content: '\2022';
+    color: rgb(255, 0, 166);
+    width: 10px;
+    height: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,96 @@
+.header {
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid red; */
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 11;
+}
+
+.header>.logo {
+    width: 10%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.header>.logo>svg {
+    width: 70px;
+    margin-right: 10px;
+}
+
+.header>.adress {
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.header>.adress>p {
+    background-color: rgba(255, 0, 166, 0.06);
+    color: rgb(255, 0, 166);
+    border: 0.09375rem solid rgba(255, 0, 166, 0.06);
+    height: 40px;
+    width: 50%;
+    border-radius: 25px;
+    font-size: 13px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.header>.search {
+    width: 35%;
+    height: 100%;
+    /* border: 1px solid red; */
+    align-content: center;
+    position: relative;
+}
+
+.header>.search>input {
+    height: 48px;
+    width: 70%;
+    font-family: font;
+    border: 0;
+    outline: 0;
+    padding: 10px 50px;
+    background-color: rgb(235, 237, 240);
+    border-radius: 9px;
+}
+
+.header>.search>svg {
+    position: absolute;
+    right: 20px;
+    bottom: 25px;
+}
+
+.header>.Login {
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-content: center;
+}
+
+.header>.Login>span {
+    font-size: 12px;
+    margin: 10px 5px 0 20px;
+}
+
+.header>.Login>svg {
+    margin-top: 7px;
+}
+
+.header>.Login>button {
+    outline: 0;
+    border: 0;
+    background-color: rgb(255, 0, 166);
+    color: white;
+    border-radius: 9px;
+    padding: 12px 10px;
+    font-weight: 900;
+    font-size: 10px;
+    font-family: font;
+}
